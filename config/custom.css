@@ -1,0 +1,72 @@
+ body{
+  background: url(http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg);
+  	background-size: absolute;
+}
+ 
+.userlist,
+.userlist li
+{
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+}
+.userlist
+{
+        border-left: 1px solid #23686f;
+        min-height: 100%;
+        background: #9ed3e8;
+}
+.userlist li
+{
+        border-bottom: 1px solid #23686f;
+        height: 19px;
+        font: 10pt Verdana, sans-serif;
+        white-space: nowrap;
+}
+.userlist li em.group
+{
+        font-style: normal;
+        font-size: 8pt;
+        color: #23686f;
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 1px 0 0 1px;
+        width: 14px;
+}
+.userlist li button
+{
+        box-sizing: border-box;
+        display: block;
+        height: auto;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        height: 19px;
+        width: 100%;
+        white-space: nowrap;
+        font: 10pt Verdana, sans-serif;
+        text-align: left;
+        cursor: pointer;
+}
+.userlist li button:hover
+{
+        background: #23686f;
+}
+.userlist li button:active
+{
+        background: #23686f;
+}
+.userlist li.cur
+{
+        background: #23686f;
+}
+.userlist li.cur button,
+.userlist li.cur button:hover
+{
+        background: #23686f;
+        margin: 0 0 0 -1px;
+}
