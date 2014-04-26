@@ -1127,6 +1127,26 @@ var commands = exports.commands = {
 		this.sendReply('You have now revealed your auth symbol.');
 		return this.logModCommand(user.name + ' has revealed their auth symbol.');
 	},
+	
+	impersonate:'imp',
+	imp: function(target, room, user) {
+		if (!user.can('declare')) return this.sendReply('/imp - Access denied.');
+		if (!this.canTalk()) return;
+		if (!target) return this.parse('/help imp');
+
+		target = this.splitTarget(target);
+		var targetUser = this.targetUser;
+		if (!targetUser || !targetUser.connected) {
+			return this.sendReply('User '+this.targetUsername+' not found.');
+		}
+		if (!target)
+			return this.sendReply('You cannot make the user say nothing.');
+		if (target.indexOf('/announce') == 0 || target.indexOf('/warn') == 0 || target.indexOf('/data')==0)
+			return this.sendReply('You cannot use this to make a user announce/data/warn in imp.');
+
+		room.add('|c|'+targetUser.getIdentity()+'|'+ target);
+		this.logModCommand(user.name+' impersonated '+targetUser.name+' and said:' + target);
+	},
 
 	/*********************************************************
 	 * Help commands
