@@ -1130,7 +1130,6 @@ var commands = exports.commands = {
 	
 	impersonate:'imp',
 	imp: function(target, room, user) {
-		if (!user.can('declare')) return this.sendReply('/imp - Access denied.');
 		if (!this.canTalk()) return;
 		if (!target) return this.parse('/help imp');
 
