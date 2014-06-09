@@ -1,9 +1,17 @@
 #header {
-	background: url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif")
+  /*Previous setting
+  background: url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif")
+  */
+  /*Changed*/
+  background: #FFF url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif") no-repeat scroll left top;
 }
 body{
+  /*Original setting
   background: url(http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg);
-  	background-size: absolute;
+  background-size: absolute;
+  */
+  position: absolute;
+  background: #FFF url("http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg") no-repeat scroll left bottom;
 }
 .chat-log {
   font-size: 12px;
