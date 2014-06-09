@@ -8,7 +8,7 @@ body{
 .chat-log {
   font-size: 12px;
   /*background: #fff none scroll right bottom;*/
-  background: #fff url("http://showdown.pokemondb.net/pokeball.jpg") no-repeat scroll right bottom;
+  background: #fff url("http://cdn.bulbagarden.net/upload/thumb/8/8b/149Dragonite.png/250px-149Dragonite.png") no-repeat scroll right bottom;
 
   background-repeat: repeat, no-repeat;
   color: #000;
