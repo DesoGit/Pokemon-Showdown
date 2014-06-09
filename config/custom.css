@@ -5,7 +5,15 @@ body{
   background: url(http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg);
   	background-size: absolute;
 }
- 
+.chat-log {
+  font-size: 12px;
+  /*background: #fff none scroll right bottom;*/
+  background: #fff url("http://showdown.pokemondb.net/pokeball.jpg") no-repeat scroll right bottom;
+
+  background-repeat: repeat, no-repeat;
+  color: #000;
+  overflow: auto;
+} 
 .userlist,
 .userlist li
 {
