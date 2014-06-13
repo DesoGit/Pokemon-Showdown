@@ -1,17 +1,9 @@
 #header {
-  /*Previous setting
-  background: url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif")
-  */
-  /*Changed*/
-  background: #FFF url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif") no-repeat scroll left top;
+	background: url("http://37.media.tumblr.com/8550e2c414d7a268bcfdfec80ef8797b/tumblr_mr4mtlSqFE1suflllo1_500.gif")
 }
 body{
-  /*Original setting
   background: url(http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg);
-  background-size: absolute;
-  */
-  position: absolute;
-  background: #FFF url("http://collectionofpicture.com/wp-content/uploads/2013/06/dragon-pokemon-wallpaper-772.jpg") no-repeat scroll left bottom;
+  	background-size: absolute;
 }
 .chat-log {
   font-size: 12px;
@@ -88,4 +80,59 @@ body{
 {
         background: #23686f;
         margin: 0 0 0 -1px;
+}
+.statbar
+{
+        position: absolute;
+        display: none;
+        width: 186px;
+        background: url(http://i.imgur.com/IKIMzZJ.png);
+        background-repeat: no-repeat;
+        background-position: 0px 1px;
+        min-height: 40px;
+        padding: 2px 4px 2px 26px;
+}
+
+.statbar .hpbar .hp
+{
+        height: 3px;
+        border-top: 1px solid #007734;
+        background: #00bb51;
+        border-bottom: 2px solid #007734;
+        border-radius: 0px;
+}
+.statbar .hpbar .hp-yellow
+{
+        background-color: #f5d538;
+        border-color: #be9f0a;
+}
+.statbar .hpbar .hp-red
+{
+        background-color: #ee4928;
+        border-color: #a3260d;
+}
+.statbar .hpbar .prevhp
+{
+        background: #BBEECC;
+        height: 6px;
+        border-radius: 0px;
+}
+.statbar .hpbar .prevhp-yellow
+{
+        background-color: #fcf4ca;
+}
+.statbar .hpbar .prevhp-red
+{
+        background-color: #facec5;
+}
+.statbar .hpbar .hptext
+{
+        position: absolute;
+        color: #FFFFFF;
+        text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black;
+        font-size: 9px;
+        width: 32px;
+        height: 12px;
+        top: -1px;
+        text-align: center;
 }
