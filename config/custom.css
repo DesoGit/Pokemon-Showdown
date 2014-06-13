@@ -92,7 +92,7 @@ body{
         min-height: 40px;
         padding: 2px 4px 2px 26px;
 }
- 
+
 .statbar .hpbar .hp
 {
         height: 3px;
@@ -124,4 +124,15 @@ body{
 .statbar .hpbar .prevhp-red
 {
         background-color: #facec5;
+}
+.statbar .hpbar .hptext
+{
+        position: absolute;
+        color: #FFFFFF;
+        text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black;
+        font-size: 9px;
+        width: 32px;
+        height: 12px;
+        top: -1px;
+        text-align: center;
 }
