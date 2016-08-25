@@ -1,4 +1,4 @@
-Pokémon Showdown
+Pokémon Showdown (old ZIP forked from old repo)
 ========================================================================
 
 Pokémon Showdown is a simulator of Pokémon battles. It currently supports singles battles in all the games out so far (Generations 1 through 6).
